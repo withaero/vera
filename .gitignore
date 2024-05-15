@@ -1,2 +1,6 @@
 target
 .env
+sqlite3.exe
+bot_database.db-shm
+
+bot_database.db-wal

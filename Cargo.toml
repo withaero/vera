@@ -2,7 +2,7 @@
 name = "Vera"
 authors = ["AERO.nu", "Sympact"]
 edition = "2021"
-
+ 
 [dependencies]
 serenity = "0.10"
 tokio = { version = "1", features = ["full"] }
@@ -10,3 +10,9 @@ reqwest = { version = "0.11", features = ["json"] }
 dotenv = "0.15"
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
+lazy_static = "1.4"
+sqlx = { version = "0.5", features = ["runtime-tokio-rustls", "sqlite"] }
+log = "0.4"
+env_logger = "0.11.3"
+chrono = "0.4" 
+parse_duration = "2.1.1"
