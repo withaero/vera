@@ -28,7 +28,7 @@ Vera can detect the following categories of content:
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/aero-nu/vera.git
+    git clone https://github.com/withaero/vera
     cd vera
     ```
 
